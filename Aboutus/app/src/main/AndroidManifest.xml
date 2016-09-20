@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.weebly.codersforceliac.aboutus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" >
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                    <category android:name="android.intent.category.LAUNCHER"/>
+                </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutPage"
+            android:label="@string/title_activity_about_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProjectDetailsPage"
+            android:label="@string/title_activity_project_details_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExtraStuffPage"
+            android:label="@string/title_activity_extra_stuff_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MemberOnePage"
+            android:label="@string/title_activity_member_one_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MemberTwoPage"
+            android:label="@string/title_activity_member_two_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MemberThreePage"
+            android:label="MemberThreePage"
+            android:theme ="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MemberFourPage"
+            android:label="MemberFourPage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MemberFivePage"
+            android:label="MemberFivePage"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>

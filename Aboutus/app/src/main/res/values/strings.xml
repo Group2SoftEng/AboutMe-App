@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">About us</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_about_page">AboutPage</string>
+    <string name="title_activity_project_details_page">ProjectDetailsPage</string>
+    <string name="title_activity_extra_stuff_page">ExtraStuffPage</string>
+    <string name="title_activity_member_one_page">MemberOnePage</string>
+    <string name="title_activity_member_two_page">MemberTwoPage</string>
+</resources>

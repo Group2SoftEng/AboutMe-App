@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.weebly.codersforceliac.aboutus.Landing"
+    android:background="#5F634F">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="About Us"
+        android:id="@+id/aboutUsButton"
+        android:background="#9BC4CB"
+        android:onClick="@string/title_activity_about_page"
+        android:layout_marginTop="154dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Extra Stuff"
+        android:id="@+id/extraStuffButton"
+        android:background="#E2FADB"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/projectDetailsButton"
+        android:layout_alignLeft="@+id/projectDetailsButton"
+        android:layout_alignStart="@+id/projectDetailsButton" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Project Details"
+        android:id="@+id/projectDetailsButton"
+        android:background="#CFEBDF"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/aboutUsButton"
+        android:layout_alignLeft="@+id/aboutUsButton"
+        android:layout_alignStart="@+id/aboutUsButton" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView3"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="51dp"
+        android:layout_alignBottom="@+id/aboutUsButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
