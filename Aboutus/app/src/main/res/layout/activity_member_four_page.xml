@@ -15,5 +15,30 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_member_two_page" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <TextView
+                android:text="Jack Foley"
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:id="@+id/textView"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:editable="false" />
+
+            <TextView
+                android:text="My name is Jackson foley I'm a Computer Science major with a concentration on Software Engineering while also working on my information security certificate. I currently work at the Technology Assistance Center here on campus. This summer I interned with the National Retail Federation. I am a member of Upsilon Pi Epsilon the computer science honors fraternity, Gamma Sigma Alpha the Greek life honors fraternity and Delta Chi a social fraternity."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView8"
+                android:layout_marginTop="281dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </ScrollView>
 </android.support.design.widget.CoordinatorLayout>

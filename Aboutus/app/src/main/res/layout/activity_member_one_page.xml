@@ -15,5 +15,30 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_member_one_page" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <TextView
+                android:text="Ryan Alcorn"
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:id="@+id/textView"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:editable="false" />
+
+            <TextView
+                android:text="I'm a Computer Science major with a Software Engineering concentration and a Creative Writing minor. I am currently employed at the Radford University Technology Assistance Center as a Phone Analyst and Help Desk Technician. Coleman Poetry Contest Winner, 1st and 2nd place, Spring 2016. See my professional profile at sanger.dk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView8"
+                android:layout_marginTop="281dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </ScrollView>
 </android.support.design.widget.CoordinatorLayout>

@@ -16,4 +16,35 @@
 
     <include layout="@layout/content_member_two_page" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Kara Sutphin"
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:id="@+id/textView"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:editable="false" />
+
+            <TextView
+                android:text="Kara Sutphin
+Senior, Radford University
+Software Engineering Concentration
+Hopeful future game developer
+Currently employed at Ozmo Inc.
+"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView8"
+                android:layout_marginTop="281dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </ScrollView>
 </android.support.design.widget.CoordinatorLayout>
